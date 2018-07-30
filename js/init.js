@@ -102,7 +102,7 @@
 /*	Modal Popup
 ------------------------------------------------------*/
 
-    $('.item-wrap a').magnificPopup({
+    /* $('.item-wrap a').magnificPopup({
 
        type:'inline',
        fixedContentPos: false,
@@ -110,7 +110,7 @@
        showCloseBtn: false,
        mainClass: 'mfp-fade'
 
-    });
+    }); */
 
     $(document).on('click', '.popup-modal-dismiss', function (e) {
     		e.preventDefault();
